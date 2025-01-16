@@ -11,7 +11,7 @@ input2 = int(input('Enter your second number '))
 
 
 # Load environment variables from .env file
-load_dotenv(dotenv_path="/path/to/env/password.env")
+load_dotenv(dotenv_path="C:/source/env/password.env")
 
 # Define the required JSON file
 REQUIRED_JSON_FILE = "config.json"
