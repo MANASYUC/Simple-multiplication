@@ -61,9 +61,6 @@ if __name__ == "__main__":
     print("Main script is running...")
 else:
 
-
-
-
     print(f'The result of multiplication is = {input1 * input2}')
     print(f'Difference of num1 & num2 = {input1 - input2}')
 
