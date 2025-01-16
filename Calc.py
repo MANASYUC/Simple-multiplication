@@ -11,7 +11,7 @@ input2 = int(input('Enter your second number '))
 
 
 # Load environment variables from .env file
-load_dotenv("password.env")
+load_dotenv(dotenv_path="/path/to/env/password.env")
 
 # Define the required JSON file
 REQUIRED_JSON_FILE = "config.json"
@@ -57,7 +57,6 @@ if __name__ == "__main__":
     print(f'Differnece of num2 & num3 = {input2 - input3}')
 
     # Add the rest of your script logic here
-    print("Main script is running...")
 else:
 
 
