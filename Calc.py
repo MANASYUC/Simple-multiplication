@@ -53,7 +53,9 @@ def validate_json_file():
 if __name__ == "__main__":
     validate_json_file()
     input3 = int(input('Enter your third number '))
-    rand_num = random.randint(0,10)
+
+    ## random number for later use/ upgrades
+    rand_num = random.randint(0,10) 
     print(f'Differnece of num2 & num3 = {input2 - input3}')
 
     # Add the rest of your script logic here
